@@ -1,6 +1,11 @@
 public class Job implements Runnable {
   private int jobNumber;
-
+  
+  /**
+   * Constructor for the Job object.
+   * 
+   * @param jobNumber The Job Number that the Job object should have (INT)
+   */
   Job (int jobNumber) {
     this.jobNumber = jobNumber;
   }
